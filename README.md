@@ -1,50 +1,48 @@
-# Welcome to your Expo app 👋
+Aplicación de trivia estilo **Preguntados**, desarrollada con **React Native** y **Expo**. El objetivo es responder correctamente la mayor cantidad de preguntas posibles. La app incluye estadísticas, navegación modular, y una estructura escalable.
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+---
 
-## Get started
+## 📱 Tecnologías utilizadas
 
-1. Install dependencies
+- [React Native](https://reactnative.dev/)
+- [Expo](https://expo.dev/)
+- [Redux Toolkit](https://redux-toolkit.js.org/)
+- [React Navigation](https://reactnavigation.org/) (via [Expo Router](https://expo.github.io/router/))
+- JavaScript (ES6+)
 
-   ```bash
-   npm install
-   ```
+---
 
-2. Start the app
+## 🚀 Cómo ejecutar el proyecto
 
-   ```bash
-   npx expo start
-   ```
+1. Cloná el repositorio:
 
-In the output, you'll find options to open the app in a
+git clone https://github.com/alejandroxgoncalves/consultados-app.git
+cd consultados-app
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+2. Instalá las dependencias:
 
-## Get a fresh project
+npm install
 
-When you're ready, run:
 
-```bash
-npm run reset-project
-```
+3. Iniciá la app:
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+npx expo start
 
-## Learn more
 
-To learn more about developing your project with Expo, look at the following resources:
+Vas a poder elegir entre:
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+Dispositivo físico con Expo Go
 
-## Join the community
+Emulador Android o iOS
 
-Join our community of developers creating universal apps.
+Vista web
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+
+
+🧠 Funcionalidades
+
+✅ Control de respuestas correctas/incorrectas
+✅ Registro de estadísticas por partida
+✅ Diseño adaptable con imágenes y estilos personalizados
+✅ Navegación entre pantallas
